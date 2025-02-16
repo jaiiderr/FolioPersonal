@@ -1,0 +1,19 @@
+:root {
+  --F1: linear-gradient(to right, rgb(95, 44, 130) 0%, rgb(73, 160, 157) 100%);
+}
+
+
+.titulo {
+    font-family: "Akatab", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.fondo{
+  background: var(--F1);
+}
+
+
+
+
+
