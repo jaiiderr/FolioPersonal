@@ -11,7 +11,7 @@
 </head>
 <body class="fondo flex justify-center flex-wrap">
 
-  <nav class="fondo p-4 shadow-lg shadow-black-600 fixed top-0 lef0 w-full ">
+  <nav class="fondo p-4 shadow-lg shadow-black-600 fixed z-200 top-0 lef0 w-full ">
     <div class="container mx-auto flex items-center justify-between">
       <div class="text-white text-2xl font-semibold">Logo</div>
       <div class="space-x-4">
@@ -21,82 +21,78 @@
       </div>
     </div>
   </nav>
-  
-  
-  <section class="w-full " id="home">
-    <div class="grid grid-cols-1 mt-12 sm:m-0 md:grid-cols-2 gap-8 p-4 w-full" style="height: 90%;">
-      <div class=" text-white flex justify-center items-center  text-xl pt-12 sm:pt-0">
-          <div>
-            <h1 class="titulo text-4xl sm:text-4xl md:text-4xl lg:text-5xl p-4">Lorem ipsum dolor</h1>
-            <p class="text-lg sm:text-lg md:text-lg lg:text-xl text-gray-100  p-4">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ratione consequuntur odit consequatur placeat minus itaque provident distinctio quibusdam at?
-            </p>
 
-            <div class="flex items-center gap-10 p-4">
-              <div class="bg-white/10 text-white flex justify-center items-center font-bold text-xl rounded-lg hover:bg-white hover:bg-opacity-20  transition-all duration-300 hover:transition-delay-1000">
-                <h1 class="font-bold text-white text-base sm:text-lg md:text-lg lg:text-base p-3">
-                  React
-                </h1>
-              </div>
-              <div class="bg-white/10 text-white flex justify-center items-center font-bold text-xl rounded-lg hover:bg-white hover:bg-opacity-20  transition-all duration-300 hover:transition-delay-1000">
-                <h1 class="font-bold text-white text-base sm:text-lg md:text-lg lg:text-base p-3">
-                  Js
-                </h1>
-              </div>
-              <div class="bg-white/10 text-white flex justify-center items-center font-bold text-xl rounded-lg hover:bg-white hover:bg-opacity-20  transition-all duration-300 hover:transition-delay-1000">
-                <h1 class="font-bold text-white text-base sm:text-lg md:text-lg lg:text-base p-3">
-                  NodeJs
-                </h1>
-              </div>
-              <div class="bg-white/10 text-white flex justify-center items-center font-bold text-xl rounded-lg hover:bg-white hover:bg-opacity-20  transition-all duration-300 hover:transition-delay-1000">
-                <h1 class="font-bold text-white text-base sm:text-lg md:text-lg lg:text-base p-3">
-                  Talwind
-                </h1>
-              </div>
+  <section class="w-full" id="home">
+    <div class="grid grid-cols-1 mt-12 sm:m-0 md:grid-cols-2 gap-8 p-4 w-full sm:p-2">
+      <div class="text-white flex justify-center items-center text-xl pt-12 md:pt-0">
+        <div>
+          <h1 class="titulo text-4xl sm:text-4xl md:text-5xl lg:text-5xl p-4">Lorem ipsum dolor</h1>
+          <p class="text-sm sm:text-sm md:text-sm lg:text-sm text-gray-100 p-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ratione consequuntur odit consequatur placeat minus itaque provident distinctio quibusdam at?
+          </p>
+  
+          <div class="flex flex-wrap items-center gap-4 p-4">
+            <div class="bg-white/10 text-white flex justify-center items-center font-bold text-xl rounded-lg hover:bg-white hover:bg-opacity-20 transition-all duration-300">
+              <h1 class="font-bold text-white text-base sm:text-lg md:text-lg lg:text-base p-3">
+                React
+              </h1>
             </div>
-
-            <div class="flex items-center p-4">
-              <div class="relative group  ">
-                <button
-                  class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
-                >
-                  <span
-                    class="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-                  ></span>
-            
-                  <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
-                    <div class="relative z-10 flex items-center space-x-2">
-                      <span class="transition-all duration-500 group-hover:translate-x-1"
-                        >Projects</span
-                      >
-                      <img class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1" src="/svg/Code.svg" alt="">
-                    </div>
-                  </span>
-                </button>
-              </div>
-              <div class="relative group px-4">
-                <button
-                  class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
-                >
-                  <span
-                    class="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-                  ></span>
-            
-                  <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
-                    <div class="relative z-10 flex items-center space-x-2">
-                      <span class="transition-all duration-500 group-hover:translate-x-1"
-                        >Contact</span
-                      >
-                      <img class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1" src="/svg/Contact.svg">
-                    </div>
-                  </span>
-                </button>
-              </div>
+            <div class="bg-white/10 text-white flex justify-center items-center font-bold text-xl rounded-lg hover:bg-white hover:bg-opacity-20 transition-all duration-300">
+              <h1 class="font-bold text-white text-base sm:text-lg md:text-lg lg:text-base p-3">
+                Js
+              </h1>
+            </div>
+            <div class="bg-white/10 text-white flex justify-center items-center font-bold text-xl rounded-lg hover:bg-white hover:bg-opacity-20 transition-all duration-300">
+              <h1 class="font-bold text-white text-base sm:text-lg md:text-lg lg:text-base p-3">
+                NodeJs
+              </h1>
+            </div>
+            <div class="bg-white/10 text-white flex justify-center items-center font-bold text-xl rounded-lg hover:bg-white hover:bg-opacity-20 transition-all duration-300">
+              <h1 class="font-bold text-white text-base sm:text-lg md:text-lg lg:text-base p-3">
+                Talwind
+              </h1>
             </div>
           </div>
+  
+          <div class="flex items-center p-4">
+            <div class=" group">
+              <button
+                class=" inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
+              >
+                <span
+                  class="  rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500  opacity-0 transition-opacity duration-500 group-hover:opacity-0"
+                ></span>
+  
+                <span class=" block px-6 py-3 rounded-xl bg-gray-950">
+                  <div class=" flex items-center space-x-2">
+                    <span class="transition-all duration-500 group-hover:translate-x-1">Projects</span>
+                    <img class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1" src="/svg/Code.svg" alt="">
+                  </div>
+                </span>
+              </button>
+            </div>
+            <div class=" group px-4">
+              <button
+                class=" inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
+              >
+                <span
+                  class="inset-0 rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500  opacity-0 transition-opacity duration-500 group-hover:opacity-0"
+                ></span>
+  
+                <span class=" block px-6 py-3 rounded-xl bg-gray-950">
+                  <div class="  flex items-center space-x-2">
+                    <span class="transition-all duration-500 group-hover:translate-x-1">Contact</span>
+                    <img class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1" src="/svg/Contact.svg">
+                  </div>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class=" text-white flex justify-center items-center font-bold text-xl pt-0 sm:pt-12">
-        <img src="/svg/coding-3-12.svg" alt="" srcset="">
+  
+      <div class="text-white flex justify-center items-center font-bold text-xl pt-0 sm:pt-12">
+        <img src="/svg/coding-3-12.svg" alt="">
       </div>
     </div>
   </section>
@@ -108,7 +104,7 @@
       </h2>
       <div class="flex justify-center items-center">
         <img src="/svg/llaves-code.svg" alt="">
-        <p class="text-lg sm:text-lg md:text-lg lg:text-xl text-gray-100  px-4">
+        <p class="text-sm sm:text-base md:text-lg lg:text-xl text-gray-100  px-4 text-center ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, sed.
         </p>
         <img src="/svg/llaves-code.svg" alt="">
@@ -189,7 +185,7 @@
       </h2>
       <div class="flex justify-center items-center">
         <img src="/svg/llaves-code.svg" alt="">
-        <p class="text-lg sm:text-lg md:text-lg lg:text-xl text-gray-100  p-4 text-center sm:w-9/12 md:w-6/12">
+        <p class="text-sm sm:text-base md:text-lg lg:text-xl text-gray-100  p-4 text-center sm:w-9/12 md:w-6/12">
           Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continuous learning path.
         </p>
         <img src="/svg/llaves-code.svg" alt="">
@@ -232,6 +228,10 @@
 
     <footer class="w-full h-20"></footer>
   </section>
+
+  
+
+
 <script src="/script.js"></script>
 </body>
 </html>
